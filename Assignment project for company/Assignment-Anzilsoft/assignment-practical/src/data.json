@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "India",
+        "isoCode": "IN"
+    },
+    {
+        "id": 2,
+        "name": "Pakistan",
+        "isoCode": "PAK"
+    }
+]
