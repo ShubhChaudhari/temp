@@ -1,0 +1,112 @@
+Start at Monday, March 25, 2013    15:20:54
+=========================================
+
+Registration Info : 
+
+Windows Version:
+Microsoft Windows XP Professional Service Pack 2 (Build 2600)
+
+Module Info:
+Company: fCoder Group, Inc.
+Product Name: ImageConverter Plus
+Product Version: 8.0.181.100720
+
+CPU Info:
+Mode: x32 bit
+Vendor: GenuineIntel
+Vendor ID: Intel Corporation
+Extended Processor Name: Unknown P6 family
+Procesor Clock Frequecy: 1794
+Logical processors per physical: 2
+Stepping code: 2
+MMX support: yes
+MMX+ support: no
+SSE support: yes
+SSE2 support: yes
+3DNow suppor: no
+3DNow+ suppor: no
+AI64 support: no
+Hyperthreading support: no
+L1 cache size: -1
+L2 cache size: -1
+L3 cache size: -1
+
+Monitor info:
+Color depth: 32 Bits per pixel.
+Pixel Width: 1024
+Pixel Height: 768
+Refresh frequency: 1 Hz
+
+Internet Explorer Version: 6.0
+Build Number: 2900
+
+Printers list: 
+\\192.168.0.206\HP LaserJet Professional M1213nf MFP
+Word-to-LaTeX EPS Printer
+Solid Converter PDF
+Metafile to EPS Converter
+HP LaserJet 1020
+Epson LX-300+
+CutePDF Writer
+ConceptDraw PDF Creator
+Auto Epson LX-300+ on RCPIT-A1E88F0C1
+Adobe PostScript
+
+Default printer: 
+Epson LX-300+
+
+
+Profile settings:
+
+Operations:
+    new size : 128 128 
+    size units : pixels
+    Horizontal resolution : 72
+    Vertical resolution : 72
+    Resolution units : inches
+    keep original image proportions : yes
+    rescale method : bilinear
+    don't zoom, if source image size smaller : yes
+    use original image resolution, in case it is supported : yes
+    fit mode : fit_in_size
+    fit alignment : center
+
+Format properties:
+    Extension: eps
+    bits per pixel : 24
+    create thumbnail : No
+
+Save properties:
+    Destination path: {Source path}
+    convert with subfolders : yes
+    restore subfolder structure in target folder : yes
+    open target folder after conversion : yes
+    create log file in target folder : yes
+
+Target file name properties:
+    Name template: {Title}.{Type}
+    what to do, if file exists : auto_rename
+    delete source images : no
+
+Processing files...
+
+=====================================================================
+
+File 1 of 1
+
+RAM free    :     401.5 of    1013.5 Mb
+Virtual free:    1926.4 of    2047.9 Mb
+Target free disk space :    5068.7 of   38146.5 Mb
+Temp free disk space   :    5068.7 of   38146.5 Mb
+
+Src info : C:\Documents and Settings\project lab\Desktop\project format\toplevelblock.JPG
+jpg, 983x659px, 24bpp, 1 page(s), 96.000000x96.000000 dpi, 41211 bytes
+Load all pages :  ok
+
+Operations:
+Resize :  ok
+
+Save :  ok
+
+Complete at Monday, March 25, 2013    15:20:55
+=========================================

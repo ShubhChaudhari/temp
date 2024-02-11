@@ -1,0 +1,925 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.11)  3 JUL 2022 00:45
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/base\report
+.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/base\size12
+.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (etcreport.sty
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/fancybox\fa
+ncybox.sty
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box50
+\shadowsize=\dimen139
+\@Sbox=\box51
+\do@VerbBox=\toks16
+\the@fancyput=\toks17
+\this@fancyput=\toks18
+\EndVerbatimTokens=\toks19
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read2
+)
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcol
+or.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cf
+g\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/graphics-de
+f\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/setspace\se
+tspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/graphics\gr
+aphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/graphics\ke
+yval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/graphics\gr
+aphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/graphics\tr
+ig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cf
+g\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+)
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ra
+gged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip49
+\RaggedLeftLeftskip=\skip50
+\RaggedRightLeftskip=\skip51
+\CenteringRightskip=\skip52
+\RaggedLeftRightskip=\skip53
+\RaggedRightRightskip=\skip54
+\CenteringParfillskip=\skip55
+\RaggedLeftParfillskip=\skip56
+\RaggedRightParfillskip=\skip57
+\JustifyingParfillskip=\skip58
+\CenteringParindent=\skip59
+\RaggedLeftParindent=\skip60
+\RaggedRightParindent=\skip61
+\JustifyingParindent=\skip62
+)
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fa
+ncyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip63
+\f@nch@O@elh=\skip64
+\f@nch@O@erh=\skip65
+\f@nch@O@olh=\skip66
+\f@nch@O@orh=\skip67
+\f@nch@O@elf=\skip68
+\f@nch@O@erf=\skip69
+\f@nch@O@olf=\skip70
+\f@nch@O@orf=\skip71
+))
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/geometry\ge
+ometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifv
+tex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ift
+ex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count194
+\Gm@cntv=\count195
+\c@Gm@tempcnt=\count196
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks21
+
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/geometry\ge
+ometry.cfg))
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\ti
+tlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box52
+\beforetitleunit=\skip72
+\aftertitleunit=\skip73
+\ttl@plus=\dimen150
+\ttl@minus=\dimen151
+\ttl@toksa=\toks22
+\titlewidth=\dimen152
+\titlewidthlast=\dimen153
+\titlewidthfirst=\dimen154
+)
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l
+3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count197
+\l__pdf_internal_box=\box53
+) (main.aux (Title/titlepage.aux)
+(comp_Certi/certificate.aux) (Certi/certificate.aux) (Ack/acknowledgement.aux)
+(Ch1/chapter1.aux) (Ch2/chapter2.aux) (Ch3/chapter3.aux) (Ch4/chapter4.aux)
+(Ch5/chapter5.aux
+
+LaTeX Warning: Label `fig:Contex Level' multiply defined.
+
+
+LaTeX Warning: Label `fig:Contex Level' multiply defined.
+
+) (Ch6/chapter6.aux) (Ch7/chapter7.aux) (Ch8/chapter8.aux)
+(Appendix/appendix.aux) (Ref/References.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/context/base/mkii
+\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count198
+\scratchdimen=\dimen155
+\scratchbox=\box54
+\nofMPsegments=\count199
+\nofMParguments=\count266
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count267
+\MPscratchDim=\dimen156
+\MPnumerator=\count268
+\makeMPintoPDFobject=\count269
+\everyMPtoPDFconversion=\toks24
+)
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pk
+g\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Shubham Chaudhari\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\ep
+stopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(113.81102pt, 426.79135pt, 56.9055pt)
+* v-part:(T,H,B)=(113.81102pt, 674.33032pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=4.54103pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\openout2 = `Title/titlepage.aux'.
+
+(Title/titlepage.tex
+<Title/111.jpg, id=1, 181.42781pt x 152.06813pt>
+File: Title/111.jpg Graphic file (type jpg)
+<use Title/111.jpg>
+Package pdftex.def Info: Title/111.jpg  used on input line 19.
+(pdftex.def)             Requested size: 90.71368pt x 76.03387pt.
+) [1
+
+
+{C:/Users/Shubham Chaudhari/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <
+./Title/111.jpg>]
+\openout2 = `comp_Certi/certificate.aux'.
+
+ (comp_Certi/certificate.tex
+<comp_Certi/Comp_certi.jpg, id=7, 1665.22125pt x 2291.56125pt>
+File: comp_Certi/Comp_certi.jpg Graphic file (type jpg)
+<use comp_Certi/Comp_certi.jpg>
+Package pdftex.def Info: comp_Certi/Comp_certi.jpg  used on input line 16.
+(pdftex.def)             Requested size: 398.33998pt x 569.04262pt.
+) [2
+
+
+
+ <./comp_Certi/Comp_certi.jpg>]
+\openout2 = `Certi/certificate.aux'.
+
+ (Certi/certificate.tex
+<Certi/111.jpg, id=11, 181.42781pt x 152.06813pt>
+File: Certi/111.jpg Graphic file (type jpg)
+<use Certi/111.jpg>
+Package pdftex.def Info: Certi/111.jpg  used on input line 5.
+(pdftex.def)             Requested size: 90.71368pt x 76.03387pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 11.
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--30
+
+ []
+
+) [3
+
+
+
+ <./Certi/111.jpg>]
+\openout2 = `Ack/acknowledgement.aux'.
+
+ (Ack/acknowledgement.tex
+Overfull \hbox (6.82864pt too wide) in paragraph at lines 3--4
+ []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--15
+
+ []
+
+) [4
+
+
+
+] (main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+ [1
+
+
+
+])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [2]
+\openout2 = `Ch1/chapter1.aux'.
+
+ (Ch1/chapter1.tex
+Chapter 1.
+[1
+
+
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 88--93
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4]
+\openout2 = `Ch2/chapter2.aux'.
+
+ (Ch2/chapter2.tex
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
+
+ []
+
+<Ch2/prototype.png, id=42, 504.38437pt x 361.35pt>
+File: Ch2/prototype.png Graphic file (type png)
+<use Ch2/prototype.png>
+Package pdftex.def Info: Ch2/prototype.png  used on input line 31.
+(pdftex.def)             Requested size: 403.50804pt x 289.0804pt.
+[5
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 47--62
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6 <./Ch2/prototype.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+<Ch2/mvc.png, id=51, 399.74344pt x 226.59656pt>
+File: Ch2/mvc.png Graphic file (type png)
+<use Ch2/mvc.png>
+Package pdftex.def Info: Ch2/mvc.png  used on input line 69.
+(pdftex.def)             Requested size: 399.74245pt x 226.596pt.
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7 <./Ch2/mvc.png>]
+\openout2 = `Ch3/chapter3.aux'.
+
+ (Ch3/chapter3.tex
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
+
+ []
+
+[8
+
+
+
+
+])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[9]
+\openout2 = `Ch4/chapter4.aux'.
+
+ (Ch4/chapter4.tex
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+[10
+
+
+
+
+])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[11]
+\openout2 = `Ch5/chapter5.aux'.
+
+ (Ch5/chapter5.tex
+Chapter 5.
+<Diag/usecaseadmin.png, id=69, 483.60675pt x 500.46976pt>
+File: Diag/usecaseadmin.png Graphic file (type png)
+<use Diag/usecaseadmin.png>
+Package pdftex.def Info: Diag/usecaseadmin.png  used on input line 24.
+(pdftex.def)             Requested size: 338.52242pt x 350.32643pt.
+[12
+
+
+
+
+]
+<Diag/ERDuser.png, id=73, 519.1395pt x 493.845pt>
+File: Diag/ERDuser.png Graphic file (type png)
+<use Diag/ERDuser.png>
+Package pdftex.def Info: Diag/ERDuser.png  used on input line 47.
+(pdftex.def)             Requested size: 363.39516pt x 345.68913pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[13 <./Diag/usecaseadmin.png>]
+<Diag/d1.png, id=79, 437.38406pt x 644.4075pt>
+File: Diag/d1.png Graphic file (type png)
+<use Diag/d1.png>
+Package pdftex.def Info: Diag/d1.png  used on input line 67.
+(pdftex.def)             Requested size: 393.642pt x 579.9614pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[14 <./Diag/ERDuser.png>]
+<Diag/DFD_Zero.jpeg, id=84, 353.52075pt x 664.28175pt>
+File: Diag/DFD_Zero.jpeg Graphic file (type jpg)
+<use Diag/DFD_Zero.jpeg>
+Package pdftex.def Info: Diag/DFD_Zero.jpeg  used on input line 74.
+(pdftex.def)             Requested size: 318.16573pt x 597.84805pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[15 <./Diag/d1.png>]
+<Diag/DFD_One.jpeg, id=88, 517.935pt x 437.83575pt>
+File: Diag/DFD_One.jpeg Graphic file (type jpg)
+<use Diag/DFD_One.jpeg>
+Package pdftex.def Info: Diag/DFD_One.jpeg  used on input line 81.
+(pdftex.def)             Requested size: 466.13718pt x 394.04854pt.
+
+Overfull \hbox (56.97064pt too wide) in paragraph at lines 81--85
+[][]
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[16 <./Diag/DFD_Zero.jpeg>])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[17 <./Diag/DFD_One.jpeg>]
+\openout2 = `Ch6/chapter6.aux'.
+
+ (Ch6/chapter6.tex
+Chapter 6.
+<Admin/Sign.jpg, id=95, 599.23875pt x 372.1905pt>
+File: Admin/Sign.jpg Graphic file (type jpg)
+<use Admin/Sign.jpg>
+Package pdftex.def Info: Admin/Sign.jpg  used on input line 21.
+(pdftex.def)             Requested size: 398.34247pt x 256.07343pt.
+[18
+
+
+
+
+]
+<Admin/Addwhitelist.jpg, id=99, 536.0025pt x 349.305pt>
+File: Admin/Addwhitelist.jpg Graphic file (type jpg)
+<use Admin/Addwhitelist.jpg>
+Package pdftex.def Info: Admin/Addwhitelist.jpg  used on input line 28.
+(pdftex.def)             Requested size: 398.3368pt x 256.08849pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[19 <./Admin/Sign.jpg> <./Admin/Addwhitelist.jpg>]
+<Admin/Adddivice.jpg, id=104, 546.24075pt x 347.49825pt>
+File: Admin/Adddivice.jpg Graphic file (type jpg)
+<use Admin/Adddivice.jpg>
+Package pdftex.def Info: Admin/Adddivice.jpg  used on input line 34.
+(pdftex.def)             Requested size: 398.35236pt x 256.09479pt.
+<Admin/Deviceowner.jpg, id=105, 558.888pt x 342.078pt>
+File: Admin/Deviceowner.jpg Graphic file (type jpg)
+<use Admin/Deviceowner.jpg>
+Package pdftex.def Info: Admin/Deviceowner.jpg  used on input line 42.
+(pdftex.def)             Requested size: 398.33975pt x 256.08286pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[20 <./Admin/Adddivice.jpg> <./Admin/Deviceowner.jpg>]
+<Admin/Userlist.jpg, id=109, 536.60475pt x 349.90726pt>
+File: Admin/Userlist.jpg Graphic file (type jpg)
+<use Admin/Userlist.jpg>
+Package pdftex.def Info: Admin/Userlist.jpg  used on input line 47.
+(pdftex.def)             Requested size: 398.34222pt x 256.07086pt.
+<Admin/Authorize.jpg, id=110, 545.03625pt x 353.52075pt>
+File: Admin/Authorize.jpg Graphic file (type jpg)
+<use Admin/Authorize.jpg>
+Package pdftex.def Info: Admin/Authorize.jpg  used on input line 51.
+(pdftex.def)             Requested size: 398.33888pt x 256.08829pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[21 <./Admin/Userlist.jpg> <./Admin/Authorize.jpg>]
+<Admin/Commandcenter.jpg, id=114, 548.0475pt x 353.52075pt>
+File: Admin/Commandcenter.jpg Graphic file (type jpg)
+<use Admin/Commandcenter.jpg>
+Package pdftex.def Info: Admin/Commandcenter.jpg  used on input line 56.
+(pdftex.def)             Requested size: 398.34866pt x 256.08829pt.
+<Admin/Device.jpg, id=115, 543.83176pt x 360.1455pt>
+File: Admin/Device.jpg Graphic file (type jpg)
+<use Admin/Device.jpg>
+Package pdftex.def Info: Admin/Device.jpg  used on input line 60.
+(pdftex.def)             Requested size: 398.34648pt x 256.08426pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[22 <./Admin/Commandcenter.jpg> <./Admin/Device.jpg>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[23]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[24]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[25])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[26]
+\openout2 = `Ch7/chapter7.aux'.
+
+ (Ch7/chapter7.tex
+Chapter 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+[27
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 27--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[28]
+<Admin/TC01.jpg, id=138, 1072.75781pt x 495.35063pt>
+File: Admin/TC01.jpg Graphic file (type jpg)
+<use Admin/TC01.jpg>
+Package pdftex.def Info: Admin/TC01.jpg  used on input line 57.
+(pdftex.def)             Requested size: 398.33827pt x 256.07213pt.
+<Admin/TC02.jpg, id=139, 953.81343pt x 530.73282pt>
+File: Admin/TC02.jpg Graphic file (type jpg)
+<use Admin/TC02.jpg>
+Package pdftex.def Info: Admin/TC02.jpg  used on input line 62.
+(pdftex.def)             Requested size: 398.34303pt x 256.07698pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[29 <./Admin/TC01.jpg> <./Admin/TC02.jpg>]
+<Admin/TC03.jpg, id=143, 915.42pt x 535.2497pt>
+File: Admin/TC03.jpg Graphic file (type jpg)
+<use Admin/TC03.jpg>
+Package pdftex.def Info: Admin/TC03.jpg  used on input line 68.
+(pdftex.def)             Requested size: 398.3302pt x 256.08388pt.
+<Admin/TC04.jpg, id=144, 939.51pt x 559.33969pt>
+File: Admin/TC04.jpg Graphic file (type jpg)
+<use Admin/TC04.jpg>
+Package pdftex.def Info: Admin/TC04.jpg  used on input line 73.
+(pdftex.def)             Requested size: 398.33315pt x 256.07889pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[30 <./Admin/TC03.jpg> <./Admin/TC04.jpg>]
+<Admin/TC05.jpg, id=148, 845.40843pt x 534.49687pt>
+File: Admin/TC05.jpg Graphic file (type jpg)
+<use Admin/TC05.jpg>
+Package pdftex.def Info: Admin/TC05.jpg  used on input line 79.
+(pdftex.def)             Requested size: 398.3353pt x 256.08255pt.
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[31 <./Admin/TC05.jpg>]
+\openout2 = `Ch8/chapter8.aux'.
+
+ (Ch8/chapter8.tex
+Chapter 8.
+[32
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
+
+ []
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[33]
+\openout2 = `Appendix/appendix.aux'.
+
+ (Appendix/appendix.tex [34
+
+
+
+
+])
+\openout2 = `Ref/References.aux'.
+
+ (Ref/References.tex
+Underfull \hbox (badness 10000) in paragraph at lines 10--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--21
+
+ []
+
+) [35
+
+
+
+
+] (main.aux (Title/titlepage.aux) (comp_Certi/certificate.aux)
+(Certi/certificate.aux) (Ack/acknowledgement.aux) (Ch1/chapter1.aux)
+(Ch2/chapter2.aux) (Ch3/chapter3.aux) (Ch4/chapter4.aux) (Ch5/chapter5.aux)
+(Ch6/chapter6.aux) (Ch7/chapter7.aux) (Ch8/chapter8.aux) (Appendix/appendix.aux
+) (Ref/References.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3830 strings out of 478582
+ 69774 string characters out of 2838644
+ 369150 words of memory out of 3000000
+ 21854 multiletter control sequences out of 15000+600000
+ 477745 words of font info for 55 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 70i,12n,76p,716b,712s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\Shubham Chaudhari\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\tcrm1200.pk><C:/Users/Shubham Chaudhari/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Shubham Chaudhari/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Shubham
+ Chaudhari/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti1
+0.pfb><C:/Users/Shubham Chaudhari/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb><C:/Users/Shubham Chaudhari/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (41 pages, 2331215 bytes).
+PDF statistics:
+ 193 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 116 words of extra memory for PDF output out of 10000 (max. 10000000)
+

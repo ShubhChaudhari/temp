@@ -1,0 +1,874 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.25)  25 MAY 2022 22:43
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./titlepage.tex
+(titlepage.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5    \begin{center}
+                     
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 5--5
+[] 
+ []
+
+! Undefined control sequence.
+l.6    \Huge
+             \bfseries \textcolor{black} {A}\\[.2cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.6    \Huge \bfseries \textcolor
+                                 {black} {A}\\[.2cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (26.03456pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/bx/n/10 black 
+ []
+
+
+Overfull \hbox (8.6944pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/bx/n/10 A 
+ []
+
+! Undefined control sequence.
+l.7    \Huge
+             \bfseries \textcolor{black} {Project Report}\\[.2cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.7    \Huge \bfseries \textcolor
+                                 {black} {Project Report}\\[.2cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (26.03456pt too wide) in paragraph at lines 7--7
+ []\OT1/cmr/bx/n/10 black 
+ []
+
+
+Overfull \hbox (37.35399pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/bx/n/10 Project 
+ []
+
+
+Overfull \hbox (17.72908pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/bx/n/10 Re- 
+ []
+
+
+Overfull \hbox (21.66656pt too wide) in paragraph at lines 7--7
+ \OT1/cmr/bx/n/10 port 
+ []
+
+! Undefined control sequence.
+l.8 	\Huge
+           \bfseries \textcolor{black} {on}\\[.2cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.8 	\Huge \bfseries \textcolor
+                               {black} {on}\\[.2cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (26.03456pt too wide) in paragraph at lines 8--8
+ []\OT1/cmr/bx/n/10 black 
+ []
+
+
+Overfull \hbox (12.13882pt too wide) in paragraph at lines 8--8
+ \OT1/cmr/bx/n/10 on 
+ []
+
+! Undefined control sequence.
+l.11    \huge
+              \bfseries \textcolor{purple} {``Digital India''}\\[.10cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.11    \huge \bfseries \textcolor
+                                  {purple} {``Digital India''}\\[.10cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (32.3679pt too wide) in paragraph at lines 11--11
+ []\OT1/cmr/bx/n/10 purple 
+ []
+
+
+Overfull \hbox (27.62486pt too wide) in paragraph at lines 11--11
+ \OT1/cmr/bx/n/10 ``Dig- 
+ []
+
+
+Overfull \hbox (7.02774pt too wide) in paragraph at lines 11--11
+ \OT1/cmr/bx/n/10 i- 
+ []
+
+
+Overfull \hbox (13.25685pt too wide) in paragraph at lines 11--11
+ \OT1/cmr/bx/n/10 tal 
+ []
+
+
+Overfull \hbox (14.58325pt too wide) in paragraph at lines 11--11
+ \OT1/cmr/bx/n/10 In- 
+ []
+
+
+Overfull \hbox (21.20126pt too wide) in paragraph at lines 11--11
+ \OT1/cmr/bx/n/10 dia'' 
+ []
+
+! Undefined control sequence.
+l.12    \Huge
+              \bfseries \textcolor{black} {At}\\[.2cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.12    \Huge \bfseries \textcolor
+                                  {black} {At}\\[.2cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (26.03456pt too wide) in paragraph at lines 12--12
+ []\OT1/cmr/bx/n/10 black 
+ []
+
+
+Overfull \hbox (12.84715pt too wide) in paragraph at lines 12--12
+ \OT1/cmr/bx/n/10 At 
+ []
+
+! Undefined control sequence.
+l.13    \Huge
+              \bfseries \textcolor{black} {Krish Compusoft Services, Ahmedab...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.13    \Huge \bfseries \textcolor
+                                  {black} {Krish Compusoft Services, Ahmedab...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (26.03456pt too wide) in paragraph at lines 13--13
+ []\OT1/cmr/bx/n/10 black 
+ []
+
+
+Overfull \hbox (17.58325pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 Kr- 
+ []
+
+
+Overfull \hbox (14.11935pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 ish 
+ []
+
+
+Overfull \hbox (27.47208pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 Com- 
+ []
+
+
+Overfull \hbox (16.61102pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 pu- 
+ []
+
+
+Overfull \hbox (18.27211pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 soft 
+ []
+
+
+Overfull \hbox (20.22908pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 Ser- 
+ []
+
+
+Overfull \hbox (27.37624pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 vices, 
+ []
+
+
+Overfull \hbox (40.15952pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 Ahmed- 
+ []
+
+
+Overfull \hbox (23.95816pt too wide) in paragraph at lines 13--13
+ \OT1/cmr/bx/n/10 abad 
+ []
+
+! Undefined control sequence.
+l.15    \large
+               \bfseries \textcolor{black} {Submitted By:}\\[.2cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.15    \large \bfseries \textcolor
+                                   {black} {Submitted By:}\\[.2cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (26.03456pt too wide) in paragraph at lines 15--15
+ []\OT1/cmr/bx/n/10 black 
+ []
+
+
+Overfull \hbox (22.99988pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/n/10 Sub- 
+ []
+
+
+Overfull \hbox (21.08322pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/n/10 mit- 
+ []
+
+
+Overfull \hbox (16.13187pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/n/10 ted 
+ []
+
+
+Overfull \hbox (17.44435pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/bx/n/10 By: 
+ []
+
+! Undefined control sequence.
+l.17      \Large
+                 \bfseries \textcolor{purple} {Vishnu S. Mahindalekar}\\[.8cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.17      \Large \bfseries \textcolor
+                                     {purple} {Vishnu S. Mahindalekar}\\[.8cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (32.3679pt too wide) in paragraph at lines 17--17
+ []\OT1/cmr/bx/n/10 purple 
+ []
+
+
+Overfull \hbox (35.27202pt too wide) in paragraph at lines 17--17
+ \OT1/cmr/bx/n/10 Vishnu 
+ []
+
+
+Overfull \hbox (9.58328pt too wide) in paragraph at lines 17--17
+ \OT1/cmr/bx/n/10 S. 
+ []
+
+
+Overfull \hbox (36.31229pt too wide) in paragraph at lines 17--17
+ \OT1/cmr/bx/n/10 Mahin- 
+ []
+
+
+Overfull \hbox (36.20117pt too wide) in paragraph at lines 17--17
+ \OT1/cmr/bx/n/10 dalekar 
+ []
+
+! Undefined control sequence.
+l.18      \Large
+                 \bfseries \textcolor{black} {To}\\[.2cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.18      \Large \bfseries \textcolor
+                                     {black} {To}\\[.2cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (26.03456pt too wide) in paragraph at lines 18--18
+ []\OT1/cmr/bx/n/10 black 
+ []
+
+
+Overfull \hbox (12.7916pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/n/10 To 
+ []
+
+! Undefined control sequence.
+l.19       \includegraphics
+                           [scale=0.5]{Title/111}\\[0.1cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (100.86194pt too wide) in paragraph at lines 19--19
+ []\OT1/cmr/bx/n/10 [scale=0.5]Title/111 
+ []
+
+! Undefined control sequence.
+l.20       \Large
+                  \bfseries \textcolor{cyan} { Institute of Management Resea...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.20       \Large \bfseries \textcolor
+                                      {cyan} { Institute of Management Resea...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (22.84013pt too wide) in paragraph at lines 20--20
+ []\OT1/cmr/bx/n/10 cyan 
+ []
+
+
+Overfull \hbox (14.58325pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 In- 
+ []
+
+
+Overfull \hbox (16.03601pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 sti- 
+ []
+
+
+Overfull \hbox (20.60406pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 tute 
+ []
+
+
+Overfull \hbox (9.26384pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 of 
+ []
+
+
+Overfull \hbox (26.729pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 Man- 
+ []
+
+
+Overfull \hbox (20.44432pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 age- 
+ []
+
+
+Overfull \hbox (25.3957pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 ment 
+ []
+
+
+Overfull \hbox (17.72908pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 Re- 
+ []
+
+
+Overfull \hbox (31.3137pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 search 
+ []
+
+
+Overfull \hbox (8.9444pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 & 
+ []
+
+
+Overfull \hbox (17.92352pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 De- 
+ []
+
+
+Overfull \hbox (18.04852pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 vel- 
+ []
+
+
+Overfull \hbox (15.97214pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 op- 
+ []
+
+
+Overfull \hbox (28.59013pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 ment, 
+ []
+
+
+Overfull \hbox (38.22205pt too wide) in paragraph at lines 20--20
+ \OT1/cmr/bx/n/10 Shirpur 
+ []
+
+! Undefined control sequence.
+l.24    \Large
+               \bfseries \textcolor{black} {North Maharashtra University, Ja...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.24    \Large \bfseries \textcolor
+                                   {black} {North Maharashtra University, Ja...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (26.03456pt too wide) in paragraph at lines 24--24
+ []\OT1/cmr/bx/n/10 black 
+ []
+
+
+Overfull \hbox (30.34708pt too wide) in paragraph at lines 24--24
+ \OT1/cmr/bx/n/10 North 
+ []
+
+
+Overfull \hbox (20.34015pt too wide) in paragraph at lines 24--24
+ \OT1/cmr/bx/n/10 Ma- 
+ []
+
+
+Overfull \hbox (15.8124pt too wide) in paragraph at lines 24--24
+ \OT1/cmr/bx/n/10 ha- 
+ []
+
+
+Overfull \hbox (25.08456pt too wide) in paragraph at lines 24--24
+ \OT1/cmr/bx/n/10 rash- 
+ []
+
+
+Overfull \hbox (14.79852pt too wide) in paragraph at lines 24--24
+ \OT1/cmr/bx/n/10 tra 
+ []
+
+
+Overfull \hbox (22.26376pt too wide) in paragraph at lines 24--24
+ \OT1/cmr/bx/n/10 Uni- 
+ []
+
+
+Overfull \hbox (19.5902pt too wide) in paragraph at lines 24--24
+ \OT1/cmr/bx/n/10 ver- 
+ []
+
+
+Overfull \hbox (20.18877pt too wide) in paragraph at lines 24--24
+ \OT1/cmr/bx/n/10 sity, 
+ []
+
+
+Overfull \hbox (18.56238pt too wide) in paragraph at lines 24--24
+ \OT1/cmr/bx/n/10 Jal- 
+ []
+
+
+Overfull \hbox (23.47902pt too wide) in paragraph at lines 24--24
+ \OT1/cmr/bx/n/10 gaon 
+ []
+
+! Undefined control sequence.
+l.25    \large
+               \bfseries \textcolor{black} {Guided By:}\\[.2cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.25    \large \bfseries \textcolor
+                                   {black} {Guided By:}\\[.2cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (26.03456pt too wide) in paragraph at lines 25--25
+ []\OT1/cmr/bx/n/10 black 
+ []
+
+
+Overfull \hbox (36.67342pt too wide) in paragraph at lines 25--25
+ \OT1/cmr/bx/n/10 Guided 
+ []
+
+
+Overfull \hbox (17.44435pt too wide) in paragraph at lines 25--25
+ \OT1/cmr/bx/n/10 By: 
+ []
+
+! Undefined control sequence.
+l.29    \Large
+               \bfseries \textcolor{purple} {Prof. Amit P. Patil.}\\[1cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.29    \Large \bfseries \textcolor
+                                   {purple} {Prof. Amit P. Patil.}\\[1cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (32.3679pt too wide) in paragraph at lines 29--29
+ []\OT1/cmr/bx/n/10 purple 
+ []
+
+
+Overfull \hbox (25.05544pt too wide) in paragraph at lines 29--29
+ \OT1/cmr/bx/n/10 Prof. 
+ []
+
+
+Overfull \hbox (25.9443pt too wide) in paragraph at lines 29--29
+ \OT1/cmr/bx/n/10 Amit 
+ []
+
+
+Overfull \hbox (10.09717pt too wide) in paragraph at lines 29--29
+ \OT1/cmr/bx/n/10 P. 
+ []
+
+
+Overfull \hbox (27.18733pt too wide) in paragraph at lines 29--29
+ \OT1/cmr/bx/n/10 Patil. 
+ []
+
+! Undefined control sequence.
+l.32    \large
+               \bfseries \textcolor{black} {  In the partial fulfillment of ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.32    \large \bfseries \textcolor
+                                   {black} {  In the partial fulfillment of ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (26.03456pt too wide) in paragraph at lines 32--32
+ []\OT1/cmr/bx/n/10 black 
+ []
+
+
+Overfull \hbox (10.74994pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 In 
+ []
+
+
+Overfull \hbox (16.13187pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 the 
+ []
+
+
+Overfull \hbox (20.5485pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 par- 
+ []
+
+
+Overfull \hbox (16.45128pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 tial 
+ []
+
+
+Overfull \hbox (16.93047pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 ful- 
+ []
+
+
+Overfull \hbox (16.61102pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 fill- 
+ []
+
+
+Overfull \hbox (25.3957pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 ment 
+ []
+
+
+Overfull \hbox (9.26384pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 of 
+ []
+
+
+Overfull \hbox (16.13187pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 the 
+ []
+
+
+Overfull \hbox (13.84023pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 re- 
+ []
+
+
+Overfull \hbox (29.49292pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 quire- 
+ []
+
+
+Overfull \hbox (25.3957pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 ment 
+ []
+
+
+Overfull \hbox (13.99994pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 for 
+ []
+
+
+Overfull \hbox (16.13187pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 the 
+ []
+
+
+Overfull \hbox (29.97203pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 award 
+ []
+
+
+Overfull \hbox (9.26384pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 of 
+ []
+
+
+Overfull \hbox (16.13187pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 the 
+ []
+
+
+Overfull \hbox (15.49298pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 de- 
+ []
+
+
+Overfull \hbox (21.0277pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 gree 
+ []
+
+
+Overfull \hbox (9.26384pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 of 
+ []
+
+
+Overfull \hbox (28.07065pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 `Mas- 
+ []
+
+
+Overfull \hbox (14.47911pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 ter 
+ []
+
+
+Overfull \hbox (9.26384pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 of 
+ []
+
+
+Overfull \hbox (27.47208pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 Com- 
+ []
+
+
+Overfull \hbox (27.25682pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 puter 
+ []
+
+
+Overfull \hbox (18.91656pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 Ap- 
+ []
+
+
+Overfull \hbox (16.61102pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 pli- 
+ []
+
+
+Overfull \hbox (14.53462pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 ca- 
+ []
+
+
+Overfull \hbox (22.99988pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/bx/n/10 tion' 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ...of ‘Master of Computer Application’}\\
+                                                  [0.12cm]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{C:/Users/vmahi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+! Undefined control sequence.
+l.34    \huge
+              \bfseries \textcolor{purple} {2021-22}\\[0.1cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.34    \huge \bfseries \textcolor
+                                  {purple} {2021-22}\\[0.1cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (32.3679pt too wide) in paragraph at lines 34--34
+ []\OT1/cmr/bx/n/10 purple 
+ []
+
+
+Overfull \hbox (26.83319pt too wide) in paragraph at lines 34--34
+ \OT1/cmr/bx/n/10 2021- 
+ []
+
+
+Overfull \hbox (11.49994pt too wide) in paragraph at lines 34--34
+ \OT1/cmr/bx/n/10 22 
+ []
+
+)
+! Emergency stop.
+<*> ./titlepage.tex
+                   
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 24 strings out of 478582
+ 588 string characters out of 2854159
+ 296047 words of memory out of 3000000
+ 18308 multiletter control sequences out of 15000+600000
+ 469567 words of font info for 29 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 26i,5n,25p,222b,176s stack positions out of 10000i,1000n,20000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

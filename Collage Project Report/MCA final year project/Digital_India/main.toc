@@ -1,0 +1,55 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{}%
+\contentsline {section}{\numberline {1.1}Company Profile}{1}{}%
+\contentsline {subsection}{\numberline {1.1.1} Services Offered }{1}{}%
+\contentsline {subsubsection}{International Consultancy}{1}{}%
+\contentsline {subsubsection}{Technical Consultancy}{2}{}%
+\contentsline {subsubsection}{Web Development }{2}{}%
+\contentsline {subsubsection}{Web Hosting }{2}{}%
+\contentsline {subsubsection}{Software Development }{2}{}%
+\contentsline {subsection}{\numberline {1.1.2}Clients and Products}{2}{}%
+\contentsline {section}{\numberline {1.2}Introduction To Digital India }{3}{}%
+\contentsline {subsection}{\numberline {1.2.1}Need And Motivation}{3}{}%
+\contentsline {subsection}{\numberline {1.2.2}Problem Definition }{3}{}%
+\contentsline {subsection}{\numberline {1.2.3}Objective And Scope}{3}{}%
+\contentsline {subsection}{\numberline {1.2.4}Features of Proposed System}{4}{}%
+\contentsline {chapter}{\numberline {2}System Requirement Analysis}{5}{}%
+\contentsline {section}{\numberline {2.1}System Requirement Analysis}{5}{}%
+\contentsline {section}{\numberline {2.2}Software Process and Development}{5}{}%
+\contentsline {section}{\numberline {2.3}Scope of Proposed System}{6}{}%
+\contentsline {section}{\numberline {2.4}Technical Specification}{6}{}%
+\contentsline {subsection}{\numberline {2.4.1}Express Framework}{7}{}%
+\contentsline {chapter}{\numberline {3}Feasibility Study}{8}{}%
+\contentsline {section}{\numberline {3.1}Introduction}{8}{}%
+\contentsline {section}{\numberline {3.2}Economical Feasibility}{8}{}%
+\contentsline {section}{\numberline {3.3}Operational Feasibility}{9}{}%
+\contentsline {section}{\numberline {3.4}Financial and Economical Feasibility}{9}{}%
+\contentsline {chapter}{\numberline {4}Proposed System}{10}{}%
+\contentsline {section}{\numberline {4.1}Proposed System}{10}{}%
+\contentsline {section}{\numberline {4.2}User Privileges}{10}{}%
+\contentsline {section}{\numberline {4.3}Objective of the System}{11}{}%
+\contentsline {chapter}{\numberline {5}Preliminary Design}{12}{}%
+\contentsline {section}{\numberline {5.1}Tools of data flow strategy}{12}{}%
+\contentsline {section}{\numberline {5.2}Use Case Diagram}{13}{}%
+\contentsline {subsubsection}{Usecase Diagram For User}{13}{}%
+\contentsline {section}{\numberline {5.3}Entity Relationship Diagram}{14}{}%
+\contentsline {subsubsection}{ERD For User.}{14}{}%
+\contentsline {section}{\numberline {5.4}Data Flow Diagram}{15}{}%
+\contentsline {chapter}{\numberline {6}Detailed Design}{18}{}%
+\contentsline {section}{\numberline {6.1}Data Dictionary}{18}{}%
+\contentsline {section}{\numberline {6.2}Input and output Design}{18}{}%
+\contentsline {subsection}{\numberline {6.2.1}Admin}{19}{}%
+\contentsline {section}{\numberline {6.3}Database structure}{23}{}%
+\contentsline {chapter}{\numberline {7}Testing}{27}{}%
+\contentsline {section}{\numberline {7.1}Introduction}{27}{}%
+\contentsline {section}{\numberline {7.2}White Box Testing}{27}{}%
+\contentsline {section}{\numberline {7.3}Black Box Testing}{28}{}%
+\contentsline {section}{\numberline {7.4}Validation Testing}{28}{}%
+\contentsline {subsection}{\numberline {7.4.1}Requirements}{28}{}%
+\contentsline {section}{\numberline {7.5}GUI Testing}{28}{}%
+\contentsline {chapter}{\numberline {8}Concluding Remarks}{32}{}%
+\contentsline {section}{\numberline {8.1}Strengths of System}{32}{}%
+\contentsline {section}{\numberline {8.2}Limitations of system}{32}{}%
+\contentsline {section}{\numberline {8.3}Scope for future development}{33}{}%
+\contentsline {section}{\numberline {8.4}Conclusion}{33}{}%
+\contentsline {chapter}{Appendix}{34}{}%
+\contentsline {chapter}{References}{35}{}%
