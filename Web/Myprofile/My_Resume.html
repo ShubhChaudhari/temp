@@ -1,0 +1,511 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+           <title>My Profile</title>
+            
+           <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css" />
+           
+           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+          
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript" language="javascript"></script>
+    
+           <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+           <script src="JS/wow.min.js" type="text/javascript"></script>
+           <link href="CSS/animate.css" rel="stylesheet" type="text/css" />
+
+            <script type="text/javascript">
+                new WOW().init();
+            </script>
+
+        <style type="text/css">
+            #HeaderDiv a.navbar-brand
+	        {
+	            font-family:Monotype Corsiva;
+	            font-size:25px;    
+	            color:#ffffff;
+	        }
+            .navbar{
+                background-color:rgba(0,0,0,0.7);    
+            }
+
+            #navbarCollapse li:hover{
+                background-color: #2f57da;
+                color: #000000;
+                border-radius: 10px; 
+
+                }
+
+	        #navbarCollapse li b
+	        {
+	            color:#ffffff;
+	        }
+            .fullscreen_bg{
+                position: relative;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                overflow: hidden;
+                z-index: -1;
+            }
+            .fullscreen_bg_video{
+                position: absolute;
+                width: auto;
+                height: auto;
+                min-width: 100%;
+                min-height: 100%;
+            }
+            #Home
+	        {
+	            height:auto;
+	            padding-bottom:40px;
+	            color:#fff;
+	            font-weight:bold
+	        }
+            #HomeRow
+	        {
+	            padding-top:7%;   
+	        }
+	        #HomeRow a i.fa
+	        {
+	            color:#ffffff;
+                    
+	        }
+            #HomeRow div.col-lg-offset-3
+	        {
+	            background:rgba(0,0,0,0.7); 
+	            padding-top:20px;
+	            padding-bottom:20px;
+	            border-radius:5px;
+	            box-shadow:0px 0px 10px rgb(255, 255, 255);
+
+	        }
+
+            #profile_pic
+            {
+                border-radius: 50%;
+                box-shadow: 0px 0px 10px #ffffff;
+            }
+
+            #TechnicalSummary
+	        {
+	            height: auto;
+	            padding-bottom:40px;
+	            color:#fff;
+	            background-attachment:fixed;
+	            background-image:url('Images/About_Image.jpg');
+	            background-repeat:no-repeat;
+	            background-size:cover;
+	            font-size:20px;
+	            line-height:1.5;
+	        }
+	        #TechnicalSummaryRow
+	        {
+	            padding-top:7%;
+	        }
+	        #TechnicalSummary h1
+	        {
+	            font-family:Monotype Corsiva;
+	        }
+
+            #Qualifications
+	            {
+	                background-attachment:fixed;
+	                background-image:url('Images/Quali.png');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:#000000;
+	            }
+	            #QualificationsRow
+	            {
+	                 margin-top:100px;
+	                 margin-bottom:100px;
+	            }
+	            #QualificationsRow div.col-lg-offset-1
+	            {
+	                padding:10px;
+	                background-color:rgba(255,255,255,0.8);
+	                border-radius:8px;
+	                box-shadow:0px 0px 18px blue;
+	                
+	            }
+	            #Qualifications table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Qualifications table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Qualifications table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+
+                #Skills
+	            {
+	                background-attachment:fixed;
+	                background-image:url('Images/Quali.png');
+                    
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                padding-bottom:40px;
+	                color:#000000;
+	            }
+	            #SkillsRow
+	            {
+	                 margin-top:100px;
+	                 margin-bottom:100px;
+	            }
+	            #SkillsRow div.col-lg-offset-5
+	            {
+	                padding:10px;
+	                background-color:#DCDCDC;
+	                border-radius:8px;
+	                box-shadow:0px 0px 18px blue;
+	                opacity:0.8;
+	            }
+	            #Skills table
+	            {
+	                width:100%;
+	                margin-top:50px;
+	            }
+	            #Skills table tr td
+	            {
+	                padding-bottom:20px;
+	            }
+	            #Skills table tr td:first-child
+	            {
+	                width:30%;
+	                padding-left:10px;
+	            }
+
+                
+
+                #Portfolio
+	            {
+	                height:auto;
+	                padding-bottom:40px;
+	                color:rgb(46, 36, 36);
+	                font-size:20px;
+	                
+	            }
+
+                #PortfolioRow h1
+	            {
+	                color:#000000;
+	                font-family:Monotype Corsiva;
+	            }
+
+                #Portfolio div.col-lg-3
+	            {
+	                margin-bottom:20px;
+	            }
+
+                .ContainerImage
+	            {
+                    position: relative;
+                    width:100%;
+                }
+
+                .image 
+                {
+                  display: block;
+                  width: 100%;
+                  height: 200px;
+				  transition:1s;
+                }
+
+                .overlay 
+                {
+                  position: absolute;
+                  left: 0;
+                  bottom: 0;
+                  top: 0;
+                  right:0;
+                  background:rgba(0,0,0,0.7);
+                  overflow: hidden;
+                  height: 100%;
+                  width:100%;
+                  opacity:0;
+                  transition:0.5s;
+                }
+
+                .ContainerImage:hover .overlay 
+                {
+                  opacity:1;
+                }
+
+                .ContainerImage:hover .image 
+                {
+                  /* transform:rotate(360deg); */
+                    
+                }
+
+                .text 
+                {
+                  color: white;
+                  font-size: 20px;
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  -ms-transform: translate(-50%, -50%);
+                  text-align: center;
+                }
+
+                #FreelancingRole
+	            {
+	                height:auto;
+	                color:#fff;
+	                background-attachment:fixed;
+	                background-image:url('Images/FreelancingRole_Image.jpg');
+	                background-repeat:no-repeat;
+	                background-size:cover;
+	                font-size:20px;
+	                
+	            }
+
+                #FreelancingRoleRow
+	            {
+	                background:rgba(0,0,0,0.8);
+	                padding-top:10%;
+	                padding-bottom:10%;
+	            }
+
+                #FreelancingRoleRow div.col-lg-3
+	            {
+	                text-align:center;
+	            }
+
+                #FreelancingRoleRow div.col-lg-3 i.fa
+	            {
+	                color:Orange;
+	            }
+
+                #FreelancingRole h1
+	            {
+	                font-family:Monotype Corsiva;
+	            }
+
+                @media(max-width:768px)
+	            {
+	                .fullscreen_bg_video 
+                    {
+                        left:-160%;
+                        width:260%;
+                    }
+                    #TechnicalSummary
+                    {
+                        height:auto;    
+                    }
+                }
+                @media(max-width:992px)
+                {
+                    #HomeRow
+	                {
+	                 padding-top:17%;    
+	                }    
+	                #TechnicalSummaryRow
+	                {
+	                 padding-top:17%;    
+	                }
+                }
+
+
+                
+
+                
+
+                
+                
+        </style>
+    </head>
+    <body>
+        <div>
+            <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top" style="z-index:1000;">
+            <div class="navbar-header" id="HeaderDiv">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">SHUBHAM CHAUDHARI</a>
+            </div>
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right" style="font-size:13px;padding-right:15px;">
+                    <li><a href="#Home" class="I1"><b>Intro</b></a></li>
+                    <li><a href="#TechnicalSummary"><b>Technical Summary</b></a></li>
+                    <li><a href="#Qualifications"><b>Qualifications</b></a></li>
+                    <li><a href="#Skills"><b>Skills</b></a></li>
+                    <li><a href="#Portfolio"><b>Projects</b></a></li>
+                    <li><a href="#FreelancingRole"><b>Freelancing Role</b></a></li>
+                </ul>
+            </div>
+            </nav>
+        </div>
+        <div id="Home" class="fullscreen_bg">
+            <video src="Video/Student - 73007.mp4" autoplay loop muted class="fullscreen_bg_video"></video>
+            <div class="row" id="HomeRow">
+                 <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-2 col-lg-6 col-md-6 col-sm-8 col-xs-12 wow slideInDown" data-wow-duration="3s">
+                      <center><img src="Images/pic1.jpg" alt="Abhishek Pujara" id="profile_pic"/></center>
+                      <center><h2>I'M SHUBHAM CHAUDHARI</h2></center>
+                      <center><h5>WEB DEVELOPER / SOFTWARE DEVELOPER.</h5><hr /></center>
+                      <div class="row">
+                          <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-5 col-md-5 col-sm-5">
+                               <center><i class="fa fa-2x fa-phone"></i> +91- 7276382048</center>
+                          </div>
+                          <div class="col-lg-5 col-md-6 col-sm-6">
+                               <center><i class="fa fa-2x fa-envelope"></i> <a href="mailto:shubhamchaudhari944@gmail.com" style="color:#ffffff;">shubhamchaudhari944@gmail.com</a></center>
+                          </div>
+                      </div><hr />
+                      <div class="row">
+                          <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-10 col-md-10 col-sm-10">
+                               <center><i class="fa fa-2x fa-map-marker"></i> Chaudhari Wada Chalisgaon 424101.</center>
+                          </div>
+                      </div><hr />
+                      <center><a href="#"><i class="fa fa-2x fa-facebook-square"></i></a> &nbsp;<a href="#"><i class="fa fa-2x fa-twitter-square"></i></a> &nbsp;<a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a> &nbsp;<a href="#"><i class="fa fa-2x fa-instagram"></i></a></center>
+                 </div>
+            </div>
+       </div>
+    
+        <div id="TechnicalSummary" class="container-fluid wow bounceIn" data-wow-duration="3s">
+        <div class="row" id="TechnicalSummaryRow">
+             <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-10 col-md-10 col-sm-10">
+                  <center><h1><i class="fa fa-gears"></i> Technical Summary</h1><hr /></center>
+                  <ul>
+                      <li>An Master of Computer Application from R.C.Patel Institute of Management Research and Development – KBC NMU University and having overall 2 years of extensive experience in developing desktop applications (C# ASP .Net) & Hospital Management System.</li><br/>
+                      <li>Core expertise in Web designing by using HTML To HTML5, CSS To CSS3, JavaScript – JQuery,Bootstrap, work with different kinds of API’s .</li><br/>
+                      <li>In database used for Web application development expertise in MS Sql Server & MS Access.</li> <br/>
+                      <li>In present web application development technology focus is on React JS.</li><br/>
+                      <li>Result oriented, self driven, highly motivated, smart and hungry to learn new technologies, methodologies, strategies and processes. </li>
+                  </ul>
+
+             </div>
+        </div>
+        </div>
+        <div id="Qualifications" class="container-fluid">
+    <div class="row" id="QualificationsRow">
+         <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-6 col-md-6 col-sm-6 wow slideInLeft" data-wow-duration="3s">
+              <center><br /><h2><i class="fa fa-object-group"></i> Education Qualification</h2><hr /></center>
+              <table class="table table-responsive">
+                <tr>
+                    <td>Year<br />2020 - 2022</td>
+                    <td>Master of Computer Application (2022)<br /> from R.C.Patel Institute of Management Research and Development <br /> KBC NMU University. <br /> (Throughout First Class with Distinction).</td>
+                </tr>
+                  <tr>
+                      <td>Year<br />2017 - 2020</td>
+                      <td>Bachelor of Computer Application (2020)<br /> from N. Y. N. C. College Chalisgaon <br /> KBC NMU University. <br /> (Throughout First Class with Distinction).</td>
+                  </tr>
+                  <tr>
+                      <td>Year<br />2014 - 2015</td>
+                      <td>12<sup>th</sup>  with Science, <br />from R.V. Junior College,<br /> Maharashtra state board.<br /> with 58.20% marks.</td>
+                  </tr>
+                  <tr>
+                      <td>Year<br />2012 - 2013</td>
+                      <td>10<sup>th</sup> with Science <br /> from A.B.Boys High School, <br />Maharashtra state board.<br /> with 61.00% marks.</td>
+                  </tr>
+                  
+              </table>
+         </div>
+    </div>
+        </div>
+        <div id="Skills" class="container-fluid">
+            <div class="row" id="SkillsRow">
+                 <div class="col-lg-offset-5 col-md-offset-5 col-sm-offset-5 col-lg-6 col-md-6 col-sm-6 wow slideInRight" data-wow-duration="3s">
+                      <center><br /><h2><i class="fa fa-object-group"></i> Technical Skills</h2><hr /></center>
+                      <table>
+                          <tr>
+                              <td>Programming Languages:</td>
+                              <td>C, C++, Visual C#, Java, JavaScript, JQuery, Angular JS.</td>
+                          </tr>
+                          <tr>
+                              <td>Tools & Technologies:</td>
+                              <td>Microsoft .Net (Specifically ASP .Net), ADO .Net, WPF, WCF, Android Mobile Application, SEO Web Tool Kit, Online Traffic Analyzer, Panel Operation Tools, Testing Techniques, Inspection web Techniques, Picomos Photo Creator, Amazing Plug-in generator, CDN Publishing, IONIC, Angular JS etc.</td>
+                          </tr>
+                          <tr>
+                              <td>Databases:</td>
+                              <td> Microsoft SQL Server, Microsoft Access.</td>
+                          </tr>
+                          <tr>
+                              <td>Protocols:</td>
+                              <td>SMTP, FTP, PO3, IMAP.</td>
+                          </tr>
+                          <tr>
+                              <td>Operating Systems:</td>
+                              <td>Microsoft Windows.</td>
+                          </tr>
+                          <tr>
+                              <td>Others:</td>
+                              <td>Multithreading, SDLC, OOPS, UML, Freelancing Market Expertise.</td>
+                          </tr>
+                      </table>
+                 </div>
+            </div>
+       </div>
+       
+    <div id="Portfolio" class="container-fluid wow bounceIn" data-wow-duration="3s">
+        <div class="row" id="PortfolioRow">
+             <center><br /><img src="Images/flowchart.png" alt="Abhishek pujara"/><h1><u>My Projects</u></h1><hr /></center>
+             <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                  <div class="ContainerImage">
+                      <img src="Images/Hsm1.jpeg" alt="Hsm1" class="image" />
+                      <div class="overlay">
+                           <div class="text">Using C# .net Language</div>
+                      </div>
+                  </div>
+             </div>
+             <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="ContainerImage">
+                      <img src="Images/Bike.jpg" alt="Bike" class="image" />
+                      <div class="overlay">
+                           <div class="text">Using Java Language</div>
+                      </div>
+                  </div>
+             </div>
+             <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="ContainerImage">
+                      <img src="Images/Jarvis.jpg" alt="Jarvis" class="image" />
+                      <div class="overlay">
+                           <div class="text">Using Python Language</div>
+                      </div>
+                  </div>
+             </div>
+             <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="ContainerImage">
+                      <img src="Images/E-Commerce.jpg" alt="E-Commerce" class="image" />
+                      <div class="overlay">
+                           <div class="text">Using HTML,CSS,JavaScript</div>
+                      </div>
+                  </div>
+             </div>
+             
+             
+        </div>
+   </div>
+   <div id="FreelancingRole" class="container-fluid wow bounceInUp" data-wow-duration="3s">
+    <div class="row" id="FreelancingRoleRow">
+         <center><br /><h1><i class="fa fa-object-group"></i> My Freelancing Role</h1><hr /></center>
+         <div class="col-lg-3 col-md-3 col-sm-4">
+              <i class="fa fa-5x fa-users"></i><br />Clients<br />1
+         </div>
+         <div class="col-lg-3 col-md-3 col-sm-4">
+              <i class="fa fa-5x fa-thumbs-up"></i><br />Projects<br />4
+         </div>
+         <div class="col-lg-3 col-md-3 col-sm-4">
+              <i class="fa fa-5x fa-smile-o"></i><br />Experineces<br />2 Year
+         </div>
+         <div class="col-lg-3 col-md-3 col-sm-4">
+              <i class="fa fa-5x fa-list"></i><br />Line of Code<br />3,799
+         </div>
+    </div>
+</div>
+
+
+    </body>
+</html>

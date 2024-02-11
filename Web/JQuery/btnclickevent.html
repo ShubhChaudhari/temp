@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>Demo JQUERY</title>
+        
+		<!--CDN LINK OF JQUERY PARENT PLUG IN - COMPULSORY TO BE HERE - INTERNET MUST BE ON AND CONNECTED ONCE WE ARE USING JQUERY CDN LINK. -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+            $(document).ready(function(){
+                
+                $('#Hide').click(function(){
+					
+						$('#MyDiv').hide(2000);
+					});
+                
+                $('#Show').click(function(){
+                    $('#MyDiv').show(2000);
+                });
+
+                $('#Toggle').click(function(){
+                    $('#MyDiv').toggle(2000);
+                });
+                
+                $('#Plus').click(function(){
+                    var MDH=parseInt($('#MyDiv').css('height'));
+                    var MDW=parseInt($('#MyDiv').css('width'));
+
+                    if(MDH<=500){
+                        MDH+=10;
+                        MDW+=10;
+                        $('#MyDiv').css('height',MDH);
+                        $('#MyDiv').css('width',MDW);
+                    }
+                    else{
+                        alert("Size is grater than 500")
+                    }
+                });
+                
+                $('#Minus').click(function(){
+                    var MDH=parseInt($('#MyDiv').css('height'));
+                    var MDW=parseInt($('#MyDiv').css('width'));
+
+                    if(MDW>=100){
+                        MDH-=10;
+                        MDW-=10;
+
+                        $('#MyDiv').css('height',MDH);
+                        $('#MyDiv').css('width',MDW);
+                    }
+                    else
+                    {
+                        alert("Size less than 100");
+                    }
+                });
+
+                $('#Show').attr('disabled',true);
+
+                $('#Hide').click(function(){
+                    $('#Show').attr('disabled',false);
+                    $('#Hide').attr('disabled',true);
+                    $('#Toggle').text("Show");
+
+                });
+
+                $('#Show').click(function(){
+                    $('#Hide').attr('disabled',false);
+                    $('#Show').attr('disabled',true);
+                    $('#Toggle').text("Hide");
+                });
+
+                $('#Toggle').click(function(){
+
+                    if($('#Toggle').text()=="Hide"){
+
+                        $("#Toggle").text("Show");
+                        $('#Hide').attr('disabled',true);
+                        $('#Show').attr('disabled',false);
+
+                    }
+                    else
+                    {
+                        $("#Toggle").text("Hide");
+                        $('#Hide').attr('disabled',flase);
+                        $('#Show').attr('disabled',true);
+                    }
+
+                });
+
+
+                
+
+            });
+
+
+          
+
+        </script>
+	</head>	
+<body>
+    
+    <div id="MyDiv" style="height:300px;width:300px;background-color:rgb(233, 221, 57);"></div>
+    <hr/>
+    <button id="Hide">Hide</button>
+    <button id="Show">Show</button>
+    <hr/>
+    <button id="Toggle">Hide</button>
+    <hr/>
+    <button id="Plus" style="font-size: xx-large;">+</button>
+    <button id="Minus" style="font-size: xx-large;">-</button>
+</body>
+</html>

@@ -1,0 +1,487 @@
+<html>
+    <head>
+        <title>Create New Account</title>
+        
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        
+		<link href="css/bootstrap/bootstrap.css" type="text/css" rel="stylesheet" />
+		
+		<!--CDN LINK OF JQUERY PARENT PLUG IN - COMPULSORY TO BE HERE. -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+        
+
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+		
+		<script type="text/javascript">
+
+        var $FNameLNameRegEx = /^([a-zA-Z]{2,20})$/;
+        var $ConNoRegEx = /^([0-9]{10})$/;
+        var $EmailIdRegEx = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,8}\b$/i;
+        var $PasswordRegEx = /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[^\w\s]).{8,12}$/;
+
+			$(document).ready(function(){
+
+                
+
+                TxtFirstnameFlag=false,TxtLastnameFlag=false,TxtDOBFlag=false,TxtAgeFlag=false,TxtContactnoFlag=false,TxtEmailIdFlag=false,TxtPasswordFlag=false;
+
+                // _________________Frist Name Validation___________________
+
+				$('#TxtFirstname').blur(function(){
+                    $("#TxtFirstnameValidation").empty();
+                    if($(this).val()=="" || $(this).val()==null)
+                    {
+                        $("#TxtFirstnameValidation").text("Required firstname!");
+                        TxtFirstnameFlag=false;
+                    }
+                    else
+                    {
+                        if(!$(this).val().match($FNameLNameRegEx))
+                        {
+                            $("#TxtFirstnameValidation").text("Firstname Invalid!");
+                            TxtFirstnameFlag=false;
+                        }
+                        else
+                        {
+                            TxtFirstnameFlag=true;
+                        }
+                    }
+                });
+
+                // _____________________Last Name Validation_____________________
+
+                $('#TxtLastname').blur(function(){
+                    $("#TxtLastnameValidation").empty();
+                    if($(this).val()=="" || $(this).val()==null)
+                    {
+                        $("#TxtLastnameValidation").text("Required firstname!");
+                        TxtLastnameFlag=false;
+                    }
+                    else
+                    {
+                        if(!$(this).val().match($FNameLNameRegEx))
+                        {
+                            $("#TxtLastnameValidation").text("Lastname Invalid!");
+                            TxtLastnameFlag=false;
+                        }
+                        else
+                        {
+                            TxtLastnameFlag=true;
+                        }
+                    }
+                });
+
+                // _____________________Date Validation_____________________
+
+                $('#TxtDOB').blur(function(){
+                    $("#TxtDOBValidation").empty();
+                    if($(this).val()=="" || $(this).val()==null)
+                    {
+                        $("#TxtDOBValidation").text("Required DOB!");
+                        TxtDOBFlag=false;
+                    }
+                    else
+                    {
+                        TxtDOBFlag=true;
+                    }
+                });
+
+                // _____________________Age Validation_____________________
+
+                $('#TxtAge').blur(function(){
+                    $("#TxtAgeValidation").empty();
+                    if($(this).val()=="" || $(this).val()==null)
+                    {
+                        $("#TxtAgeValidation").text("Required Age!");
+                        TxtAgeFlag=false;
+                    }
+                    else
+                    {
+                        if($(this).val()<=18 || $(this).val()>=100)
+                        {
+                            $("#TxtAgeValidation").text("Invalid Age!");
+                            TxtAgeFlag=false;
+                        }
+                        else
+                        {
+                            TxtAgeFlag=true;
+                        }
+                    }
+                });
+
+                // _____________________Contact No Validation_____________________
+
+                $('#TxtContactno').blur(function(){
+                    $("#TxtContactnoValidation").empty();
+                    if($(this).val()=="" || $(this).val()==null)
+                    {
+                        $("#TxtContactnoValidation").text("Required Contact no!");
+                        TxtContactnoFlag=false;
+                    }
+                    else
+                    {
+                        if(!$(this).val().match($ConNoRegEx))
+                        {
+                            $("#TxtContactnoValidation").text("Contact No Invalid!");
+                            TxtContactnoFlag=false;
+                        }
+                        else
+                        {
+                            TxtContactnoFlag=true;
+                        }
+                    }
+                });
+
+                // _____________________Email Id Validation_____________________
+
+                $('#TxtEmailId').blur(function(){
+                    $("#TxtEmailIdValidation").empty();
+                    if($(this).val()=="" || $(this).val()==null)
+                    {
+                        $("#TxtEmailIdValidation").text("Required Email id ! ");
+                        TxtEmailIdFlag=false;
+                    }
+                    else
+                    {
+                        if(!$(this).val().match($EmailIdRegEx))
+                        {
+                            $("#TxtEmailIdValidation").text("Email Id Invalid !");
+                            TxtEmailIdFlag=false;
+                        }
+                        else
+                        {
+                            TxtEmailIdFlag=true;
+                        }
+                    }
+                });
+
+                // _____________________Password Validation_____________________
+
+                $('#TxtPassword').blur(function(){
+                    $("#TxtPasswordValidation").empty();
+                    if($(this).val()=="" || $(this).val()==null)
+                    {
+                        $("#TxtPasswordValidation").text("Password Required!");
+                        TxtPasswordFlag=false;
+                    }
+                    else
+                    {
+                        if(!$(this).val().match($PasswordRegEx))
+                        {
+                            $("#TxtPasswordValidation").text("Invalid Password!");
+                            TxtPasswordFlag=false;
+                        }
+                        else
+                        {
+                            TxtPasswordFlag=true;
+                        }
+                    }
+                });
+
+                // _____________________Keypress_____________________
+
+                $('#TxtFirstname').keypress(function(e){
+                    $("#TxtFirstnameValidation").empty();
+                    var Flag=false;
+					((e.which>=65 && e.which<=90) || (e.which>=92 && e.which<=121))
+					?Flag=true
+					:(Flag=false,$("#TxtFirstnameValidation").html("(*) Press Invalid Key..!!"));
+					return Flag;
+                });
+
+                $('#TxtLastname').keypress(function(e){
+                    $("#TxtLastnameValidation").empty();
+                    var Flag=false;
+					((e.which>=65 && e.which<=90) || (e.which>=92 && e.which<=121))
+					?Flag=true
+					:(Flag=false,$("#TxtLastnameValidation").html("(*) Press Invalid Key..!!"));
+					return Flag;
+                });
+
+                $('#TxtAge').keypress(function(e){
+                    $('#TxtAgeValidation').empty();
+                    var Flag=false;
+                    ((e.which>=48 && e.which<=57))?Flag=true:(Flag=false,$("#TxtAgeValidation").html("(*) Press Invalid Key..!!"));
+                    return Flag;
+                });
+
+                $('#TxtContactno').keypress(function(e){
+                    $('#TxtContactnoValidation').empty();
+                    var Flag=false;
+                    ((e.which>=48 && e.which<=57))?Flag=true:(Flag=false,$("#TxtContactnoValidation").html("(*) Press Invalid Key..!!"));
+                    return Flag;
+                });
+
+
+                // _____________________Submitbtn_______________
+
+                $('#submitbtn').click(function(){
+                    $("#TxtFirstnameValidation").empty();
+                    if($('#TxtFirstname').val()=="" || $('#TxtFirstname').val()==null)
+                    {
+                        $("#TxtFirstnameValidation").text("Required firstname!");
+                        TxtFirstnameFlag=false;
+                    }
+                    else
+                    {
+                        if(!$('#TxtFirstname').val().match($FNameLNameRegEx))
+                        {
+                            $("#TxtFirstnameValidation").text("Firstname Invalid!");
+                            TxtFirstnameFlag=false;
+                        }
+                        else
+                        {
+                            TxtFirstnameFlag=true;
+                        }
+                    }
+
+                    $("#TxtLastnameValidation").empty();
+                    if($('#TxtLastname').val()=="" || $('#TxtLastname').val()==null)
+                    {
+                        $("#TxtLastnameValidation").text("Required lasttname!");
+                        TxtLastnameFlag=false;
+                    }
+                    else
+                    {
+                        if(!$('#TxtLastname').val().match($FNameLNameRegEx))
+                        {
+                            $("#TxtLastnameValidation").text("Lastname Invalid!");
+                            TxtLastnameFlag=false;
+                        }
+                        else
+                        {
+                            TxtLastnameFlag=true;
+                        }
+                    }
+
+                    $("#TxtDOBValidation").empty();
+                    if($('#TxtDOBV').val()=="" || $('#TxtDOBV').val()==null)
+                    {
+                        $("#TxtDOBValidation").text("Required DOB!");
+                        TxtDOBFlag=false;
+                    }
+                    else
+                    {
+                        TxtDOBFlag=true;
+                    }
+
+                    $("#TxtAgeValidation").empty();
+                    if($('#TxtAge').val()=="" || $('#TxtAge').val()==null)
+                    {
+                        $("#TxtAgeValidation").text("Required Age!");
+                        TxtAgeFlag=false;
+                    }
+                    else
+                    {
+                        TxtAgeFlag=true;
+                    }
+
+                    $("#TxtContactnoValidation").empty();
+                    if($('#TxtContactno').val()=="" || $('#TxtContactno').val()==null)
+                    {
+                        $("#TxtContactnoValidation").text("Required Contact no!");
+                        TxtContactnoFlag=false;
+                    }
+                    else
+                    {
+                        if(!$('#TxtContactno').val().match($ConNoRegEx))
+                        {
+                            $("#TxtContactnoValidation").text("Contact No Invalid!");
+                            TxtContactnoFlag=false;
+                        }
+                        else
+                        {
+                            TxtContactnoFlag=true;
+                        }
+                    }
+
+                    $("#TxtEmailIdValidation").empty();
+                    if($('#TxtEmailId').val()=="" || $('#TxtEmailId').val()==null)
+                    {
+                        $("#TxtEmailIdValidation").text("Required Email Id ! ");
+                        TxtEmailIdFlag=false;
+                    }
+                    else
+                    {
+                        if(!$('#TxtEmailId').val().match($EmailIdRegEx))
+                        {
+                            $("#TxtEmailIdValidation").text("Email Id Invalid !");
+                            TxtEmailIdFlag=false;
+                        }
+                        else
+                        {
+                            TxtEmailIdFlag=true;
+                        }
+                    }
+
+                    $("#TxtPasswordValidation").empty();
+                    if($('#TxtPassword').val()=="" || $('#TxtPassword').val()==null)
+                    {
+                        $("#TxtPasswordValidation").text("Password Required!");
+                        TxtPasswordFlag=false;
+                    }
+                    else
+                    {
+                        if(!$('#TxtPassword').val().match($PasswordRegEx))
+                        {
+                            $("#TxtPasswordValidation").text("Invalid Password!");
+                            TxtPasswordFlag=false;
+                        }
+                        else
+                        {
+                            TxtPasswordFlag=true;
+                        }
+                    }
+                });
+
+
+
+                $("#TxtDOB").datepicker({
+                        changeMonth: true,
+                        changeYear: true,
+                        dateFormat: 'dd/mm/yy',
+                        yearRange: '1900:+0',
+                        onSelect: function (dateString, TxtDOB) {
+                        ValidateDOB(dateString);
+                    }
+                });
+                
+                function ValidateDOB(dateString) {
+        var TxtDOBValidation = $("#TxtDOBValidation");
+        var parts = dateString.split("/");
+        var dtDOB = new Date(parts[1] + "/" + parts[0] + "/" + parts[2]);
+        var dtCurrent = new Date();
+        TxtDOBValidation.html("Eligibility 18 years ONLY.")
+        if (dtCurrent.getFullYear() - dtDOB.getFullYear() < 18) {
+            return false;
+        }
+ 
+        if (dtCurrent.getFullYear() - dtDOB.getFullYear() == 18) {
+ 
+            //CD: 11/06/2018 and DB: 15/07/2000. Will turned 18 on 15/07/2018.
+            if (dtCurrent.getMonth() < dtDOB.getMonth()) {
+                return false;
+            }
+            if (dtCurrent.getMonth() == dtDOB.getMonth()) {
+                //CD: 11/06/2018 and DB: 15/06/2000. Will turned 18 on 15/06/2018.
+                if (dtCurrent.getDate() < dtDOB.getDate()) {
+                    return false;
+                }
+            }
+        }
+        TxtDOBValidation.html("");
+        return true;
+    }
+
+			});
+
+            
+		</script>
+
+<style type="text/css">
+    #CNAForms{
+        box-shadow:0px 0px 3px gray;
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+    i.fa,b{
+        color:teal;
+    }
+</style>
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 col-sm-offset-3 col-sm-6 col-xs-12" id="CNAForms">
+            <h3 class="text-center"><i class="fa fa-user-plus"></i> Create New Account</h3><hr/>
+            <div class="form-group">
+                <b>Firstname</b>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                    <input id="TxtFirstname" type="text" placeholder="Enter firstname here.." maxlength="20" class="form-control" />
+                </div>
+                <small id="TxtFirstnameValidation" class="text-danger"></small>
+            </div>
+            <div class="form-group">
+                <b>Lastname</b>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                    <input id="TxtLastname" type="text" placeholder="Enter lastname here.." maxlength="20" class="form-control" />
+                </div>
+                <small id="TxtLastnameValidation" class="text-danger"></small>
+            </div>
+
+            <div class="form-group">
+                <b>Gender</b>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-female"></i> | <i class="fa fa-male"></i></span>
+                    <select id="DDL_Gender" class="form-control">
+                        <option value='F'>Female</option>
+                        <option value='M'>Male</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <b>DOB</b>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                    <input id="TxtDOB" type="text" maxlength="20" class="form-control" />
+                </div>
+                <small id="TxtDOBValidation" class="text-danger"></small>
+            </div>
+            <div class="form-group">
+                <b>Age</b>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                    <input id="TxtAge" type="text" placeholder="Enter Age here.." maxlength="3" class="form-control" />
+                </div>
+                <small id="TxtAgeValidation" class="text-danger"></small>
+            </div>
+
+            <div class="form-group">
+                <b><i class="fa fa-phone"></i> Contact No.</b>
+                <div class="input-group">
+                    <span class="input-group-addon">+91</span>
+                    <input id="TxtContactno" type="text" placeholder="Enter contact no. here.." maxlength="10" class="form-control" />
+                </div>
+                <small id="TxtContactnoValidation" class="text-danger"></small>
+            </div>
+            <div class="form-group">
+                <b>Email</b>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                    <input id="TxtEmailId" type="text" placeholder="Enter email id here.." maxlength="50" class="form-control" />
+                </div>
+                <small id="TxtEmailIdValidation" class="text-danger"></small>
+            </div>
+            <div class="form-group">
+                <b>Password</b>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                    <input id="TxtPassword" type="password" placeholder="Enter password here.." maxlength="12" class="form-control" />
+                </div>
+                <small id="TxtPasswordValidation" class="text-danger"></small>
+            </div>
+            <div class="form-group">
+                <a class="btn btn-primary" id="submitbtn"><i class="fa fa-user-plus" style="color:white;"></i> Create New Account</a>
+            </div>
+
+
+
+            
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+

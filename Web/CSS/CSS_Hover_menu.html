@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    
+    <title>Hover Effect</title>
+    <style type="text/css">
+        #mainid li ul li{
+            display: none;
+        }
+        #mainid li:hover ul li{
+            display: block;
+        }
+        #mainid li:hover ul li ul li{
+            display: none;
+        }
+        #mainid li ul li:hover ul li{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <ul id="mainid">
+        <li>Google
+            <ul>
+                <li>Sign up</li>
+                <li>Sign in
+                    <ul>
+                        <li>Sign in as admin</li>
+                        <li>Sign in member</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Yahoo
+            <ul>
+                <li>Sign up</li>
+                <li>Sign in
+                    <ul>
+                        <li>Sign with Yahoo</li>
+                        <li>Sign with Yahoo</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Rediff Mail
+            <ul>
+                <li>Sign up</li>
+                <li>Sign in
+                    <ul>
+                        <li>Sign with Rediff</li>
+                        <li>Sign with Rediff</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        
+    </ul>
+</body>
+</html>
